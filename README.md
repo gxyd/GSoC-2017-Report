@@ -21,6 +21,7 @@ Merged Pull Requests
 * separate rewrite functions of exps/pows and logs from `__init__` [#12849](https://github.com/sympy/sympy/pull/12849)
 * Add new variables for trigonometric and algebraic extensions [#12850](https://github.com/sympy/sympy/pull/12850)
 * Fix (pi\*\*3).is_algebraic in the `_eval_algebraic` in Pow [#12924](https://github.com/sympy/sympy/pull/12924)
+* Expression having "I"(iota) be rewritten in terms of 'exp'/'log' in DifferentialExtension[#13225](https://github.com/sympy/sympy/pull/13225)
 
 We touched some part of trigonometric function integration, it wouldn't be wrong to say that trigonometric function integration hasn't been improved much (leave the part of touching the algebraic function integration).
 
